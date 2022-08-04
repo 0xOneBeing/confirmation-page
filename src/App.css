@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,18 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+
+.main-wrapper {
+  height: 100vh;
 }
+
+.confirmBox {
+  background-color: rgba(228, 211, 211, 0.338);
+  border: 5px solid green;
+  border-radius: 10px;
+  margin: 100px;
+  /* padding: 100px; */
+}
+

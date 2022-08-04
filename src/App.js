@@ -1,11 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import NavBar from './components/NavBar';
 import Confirmation from './components/Confirmation';
 
 function App() {
   return (
     <div className="App">
-      <Confirmation />
+      <div className="main-wrapper">
+        <NavBar />
+        <Confirmation />
+      </div>
       {/* <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
